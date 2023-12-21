@@ -1,0 +1,109 @@
+:host,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  flex-shrink: 0;
+  text-decoration: none;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+:host,
+:not(span, a, ul, ol, li, p) {
+  display: flex;
+}
+
+ul,
+ol {
+  text-indent: 0;
+  padding-inline-start: 1.5em;
+}
+
+p:empty::before {
+  content: '';
+  display: inline-block;
+}
+
+img {
+  object-fit: contain;
+}
+
+svg {
+  overflow: visible;
+}
+
+:host {
+  position: relative;
+  width: 152px;
+  height: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.ellipse7 {
+  position: absolute;
+  left: 42.1053%;
+  right: 42.1053%;
+  top: 0;
+  bottom: 0;
+  overflow: visible;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ellipse8 {
+  position: absolute;
+  left: 68.4211%;
+  right: 21.0526%;
+  top: 16.6667%;
+  bottom: 16.6667%;
+  overflow: visible;
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ellipse10 {
+  position: absolute;
+  left: 89.4737%;
+  right: 0;
+  top: 16.6667%;
+  bottom: 16.6667%;
+  overflow: visible;
+}
+.icon3 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ellipse9 {
+  position: absolute;
+  left: 21.0526%;
+  right: 68.4211%;
+  top: 16.6667%;
+  bottom: 16.6667%;
+  overflow: visible;
+}
+.icon4 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ellipse11 {
+  position: absolute;
+  left: 0;
+  right: 89.4737%;
+  top: 16.6667%;
+  bottom: 16.6667%;
+  overflow: visible;
+}
+.icon5 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
